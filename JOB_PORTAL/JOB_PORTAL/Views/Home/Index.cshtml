@@ -1,8 +1,65 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+    }
+
+    .home-section {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-text h1 {
+        font-weight: 600;
+    }
+
+    .home-text p {
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    .home-image img {
+        width: 100%;
+        height: 90vh;
+        object-fit: cover;
+    }
+
+</style>
+
+<div class="container home-section p-0">
+    <div class="row w-100 m-0">
+      
+        <div class="col-md-6 d-flex align-items-center justify-content-center p-5 home-text">
+            <div>
+                <h1 class="mb-4">Find Your Dream Job</h1>
+                <p class="mb-3">“Connecting talent with opportunity.”</p>
+                <p class="mb-4">“Unlocking potential, one job at a time.”</p>
+
+                <h5 class="fw-semibold mb-3">Services We Offer:</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2">• Job Listings</li>
+                    <li class="mb-2">• Resume Building</li>
+                    <li class="mb-2">• Career Counseling</li>
+                </ul>
+
+                <a class="btn btn-primary btn-lg mt-4" asp-controller="Account" asp-action="Login">Get Started</a>
+            </div>
+        </div>
+
+        <div class="col-md-6 home-image p-0">
+            <img src="~/full-stack.png" alt="Job Portal" class="img-fluid">
+        </div>
+    </div>
 </div>
