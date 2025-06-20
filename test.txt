@@ -1,4 +1,14 @@
+<<<<<<< HEAD
+Hello We are starting the project
+Praneetha Did Changes
+=======
 
 
 Rathan Updated
 Hello We are starting the project
+>>>>>>> 2cd96164c1b6eb0887d5d02d5fe3266e257b9066
+
+
+Sushmitha did changes
+
+Sulthana did changes
