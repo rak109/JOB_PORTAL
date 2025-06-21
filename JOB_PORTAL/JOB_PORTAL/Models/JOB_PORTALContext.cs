@@ -39,13 +39,13 @@ public partial class JOB_PORTALContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer(DbCredentials.CONNECTION_STRING);
+        => optionsBuilder.UseSqlServer(new DbCredentials().CONNECTION_STRING = "Data Source=WKSBAN36SUHTR17\\SQLEXPRESS;Initial Catalog=JOBS_PORTAL_TEST;Integrated Security=True;Encrypt=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AcademicDetail>(entity =>
         {
-            entity.HasKey(e => e.AcademicId).HasName("PK__Academic__D9D65DD49AFFD0A1");
+            entity.HasKey(e => e.AcademicId).HasName("PK__Academic__D9D65DD410B2B989");
 
             entity.ToTable("Academic_Details");
 
@@ -68,12 +68,12 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.JobSeeker).WithMany(p => p.AcademicDetails)
                 .HasForeignKey(d => d.JobSeekerId)
-                .HasConstraintName("FK__Academic___JobSe__4D94879B");
+                .HasConstraintName("FK__Academic___JobSe__5FB337D6");
         });
 
         modelBuilder.Entity<Application>(entity =>
         {
-            entity.HasKey(e => e.ApplicationId).HasName("PK__Applicat__E063E1CB88E8F8B1");
+            entity.HasKey(e => e.ApplicationId).HasName("PK__Applicat__E063E1CBEA253E37");
 
             entity.ToTable("Application");
 
@@ -90,20 +90,20 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.Employer).WithMany(p => p.Applications)
                 .HasForeignKey(d => d.EmployerId)
-                .HasConstraintName("FK__Applicati__Emplo__5535A963");
+                .HasConstraintName("FK__Applicati__Emplo__6754599E");
 
             entity.HasOne(d => d.Job).WithMany(p => p.Applications)
                 .HasForeignKey(d => d.JobId)
-                .HasConstraintName("FK__Applicati__Job_I__534D60F1");
+                .HasConstraintName("FK__Applicati__Job_I__656C112C");
 
             entity.HasOne(d => d.JobSeeker).WithMany(p => p.Applications)
                 .HasForeignKey(d => d.JobSeekerId)
-                .HasConstraintName("FK__Applicati__JobSe__5441852A");
+                .HasConstraintName("FK__Applicati__JobSe__66603565");
         });
 
         modelBuilder.Entity<Branch>(entity =>
         {
-            entity.HasKey(e => e.BranchId).HasName("PK__Branch__12CEB0419A24AA64");
+            entity.HasKey(e => e.BranchId).HasName("PK__Branch__12CEB04114CB0250");
 
             entity.ToTable("Branch");
 
@@ -121,12 +121,12 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.Company).WithMany(p => p.Branches)
                 .HasForeignKey(d => d.CompanyId)
-                .HasConstraintName("FK__Branch__Company___3C69FB99");
+                .HasConstraintName("FK__Branch__Company___4E88ABD4");
         });
 
         modelBuilder.Entity<Company>(entity =>
         {
-            entity.HasKey(e => e.CompanyId).HasName("PK__Company__5F5D19326FD1D440");
+            entity.HasKey(e => e.CompanyId).HasName("PK__Company__5F5D1932A9750595");
 
             entity.ToTable("Company");
 
@@ -145,7 +145,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<EmployerDetail>(entity =>
         {
-            entity.HasKey(e => e.EmployerId).HasName("PK__Employer__6C37C549FE3AC691");
+            entity.HasKey(e => e.EmployerId).HasName("PK__Employer__6C37C54980143107");
 
             entity.ToTable("Employer_Details");
 
@@ -161,16 +161,16 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.Branch).WithMany(p => p.EmployerDetails)
                 .HasForeignKey(d => d.BranchId)
-                .HasConstraintName("FK__Employer___Branc__403A8C7D");
+                .HasConstraintName("FK__Employer___Branc__52593CB8");
 
             entity.HasOne(d => d.User).WithMany(p => p.EmployerDetails)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__Employer___User___3F466844");
+                .HasConstraintName("FK__Employer___User___5165187F");
         });
 
         modelBuilder.Entity<Job>(entity =>
         {
-            entity.HasKey(e => e.JobId).HasName("PK__Job__E76A76862980A890");
+            entity.HasKey(e => e.JobId).HasName("PK__Job__E76A7686EB45D450");
 
             entity.ToTable("Job");
 
@@ -203,12 +203,12 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.Employer).WithMany(p => p.Jobs)
                 .HasForeignKey(d => d.EmployerId)
-                .HasConstraintName("FK__Job__Employer_ID__4316F928");
+                .HasConstraintName("FK__Job__Employer_ID__5535A963");
         });
 
         modelBuilder.Entity<JobSeeker>(entity =>
         {
-            entity.HasKey(e => e.JobSeekerId).HasName("PK__JobSeeke__75D13F11B6FEA15D");
+            entity.HasKey(e => e.JobSeekerId).HasName("PK__JobSeeke__75D13F118D7C71F1");
 
             entity.ToTable("JobSeeker");
 
@@ -228,12 +228,12 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.JobSeekers)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__JobSeeker__User___46E78A0C");
+                .HasConstraintName("FK__JobSeeker__User___59063A47");
         });
 
         modelBuilder.Entity<ProfessionalDetail>(entity =>
         {
-            entity.HasKey(e => e.ProfessionalId).HasName("PK__Professi__C81884E70051BE49");
+            entity.HasKey(e => e.ProfessionalId).HasName("PK__Professi__C81884E72510EEC3");
 
             entity.ToTable("Professional_Details");
 
@@ -253,12 +253,12 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.JobSeeker).WithMany(p => p.ProfessionalDetails)
                 .HasForeignKey(d => d.JobSeekerId)
-                .HasConstraintName("FK__Professio__JobSe__5070F446");
+                .HasConstraintName("FK__Professio__JobSe__628FA481");
         });
 
         modelBuilder.Entity<Skill>(entity =>
         {
-            entity.HasKey(e => e.SkillId).HasName("PK__Skill__B4A9E2B02B9BE56C");
+            entity.HasKey(e => e.SkillId).HasName("PK__Skill__B4A9E2B081C8CE38");
 
             entity.ToTable("Skill");
 
@@ -278,16 +278,16 @@ public partial class JOB_PORTALContext : DbContext
 
             entity.HasOne(d => d.Job).WithMany(p => p.Skills)
                 .HasForeignKey(d => d.JobId)
-                .HasConstraintName("FK__Skill__Job_ID__4AB81AF0");
+                .HasConstraintName("FK__Skill__Job_ID__5CD6CB2B");
 
             entity.HasOne(d => d.JobSeeker).WithMany(p => p.Skills)
                 .HasForeignKey(d => d.JobSeekerId)
-                .HasConstraintName("FK__Skill__JobSeeker__49C3F6B7");
+                .HasConstraintName("FK__Skill__JobSeeker__5BE2A6F2");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__206D9190D5759844");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__206D919026DACACE");
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()
