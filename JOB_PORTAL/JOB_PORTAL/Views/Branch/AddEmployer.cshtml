@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Login";
+   Layout = "~/Views/Shared/Branch_Layout.cshtml";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f0f2f5;
+    }
+
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+    }
+
+    .login-links a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .login-links a:hover {
+            text-decoration: underline;
+        }
+
+    label {
+        font-weight: 500;
+    }
+</style>
+
+<div class="container login-container">
+    <div class="login-box">
+        <h3 class="text-center mb-4">Login</h3>
+
+        <form asp-controller="Branch" asp-action="AddEmployer" method="post">
+            <div class="mb-3">
+                <label for="EmployerId">EmployerId</label>
+                <input type="text" class="form-control" id="EmployerId" name="EmployerId" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="UserId">UserId</label>
+                <input type="text" class="form-control" id="UserId" name="UserId" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="BranchId">BranchId</label>
+                <input type="text" class="form-control" id="BranchId" name="BranchId" required />
+            </div>
+
+           
+            <div class="mb-3">
+                <label for=" Username"> Username</label>
+                <input type="text" class="form-control" id=" Username" name=" Username" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="Password" required />
+            </div>
+
+			<div class="mb-3">
+                <label for="EmailId">EmailId</label>
+                <input type="email" class="form-control" id="EmailId" name="EmailId" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Add Employer</button>
+            </div>
+
+            <div class="mt-3 d-flex justify-content-between login-links">
+                <a asp-controller="Account" asp-action="ForgotPassword">Forgot password?</a>
+                <a asp-controller="Account" asp-action="ResetPassword">Reset password</a>
+            </div>
+        </form>
+    </div>
+</div>
