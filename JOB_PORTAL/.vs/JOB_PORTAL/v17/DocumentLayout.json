@@ -1,46 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\",
+  "WorkspaceRootPath": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\dbcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\dbcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\company\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\project_job_portal\\job_portal\\job_portal\\job_portal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\views\\company\\companydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\company\\companydashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\views\\company\\logincompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\views\\company\\logincompany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,132 +26,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DbCredentials.cs",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\DbCredentials.cs",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\DbCredentials.cs",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\DbCredentials.cs",
-              "RelativeToolTip": "JOB_PORTAL\\DbCredentials.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "JOB_PORTAL\\EmailHelper.cs",
+              "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\EmailHelper.cs",
+              "RelativeToolTip": "JOB_PORTAL\\EmailHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T17:44:30.896Z",
+              "WhenOpened": "2025-06-21T11:56:23.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompanyDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
+              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
+              "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
+              "RelativeToolTip": "JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:49:44.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginCompany.cshtml",
+              "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
+              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
+              "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
+              "RelativeToolTip": "JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T11:45:45.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "JOB_PORTAL\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T17:10:56.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\Index.cshtml",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Company\\Index.cshtml",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\Index.cshtml",
-              "RelativeToolTip": "JOB_PORTAL\\Views\\Company\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T16:08:10.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Auth\\Index.cshtml",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Auth\\Index.cshtml",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Auth\\Index.cshtml",
-              "RelativeToolTip": "JOB_PORTAL\\Views\\Auth\\Index.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T16:07:28.556Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "JOB_PORTAL\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:07:02.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "JOB_PORTAL\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T15:21:06.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "JOB_PORTAL\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T15:20:45.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "JOB_PORTAL\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-20T15:16:30.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CompanyController.cs",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "JOB_PORTAL\\Controllers\\CompanyController.cs",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs",
-              "RelativeToolTip": "JOB_PORTAL\\Controllers\\CompanyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs*",
+              "RelativeToolTip": "JOB_PORTAL\\Controllers\\CompanyController.cs*",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAswLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T13:55:44.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "JOB_PORTAL\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Project_Job_Portal\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "JOB_PORTAL\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T16:01:15.858Z"
+              "WhenOpened": "2025-06-20T13:55:44.147Z",
+              "EditorCaption": ""
             }
           ]
         }

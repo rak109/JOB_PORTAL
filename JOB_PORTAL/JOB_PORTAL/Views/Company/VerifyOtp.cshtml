@@ -1,0 +1,10 @@
+﻿@model JOB_PORTAL.VerifyOtpViewModel
+
+<h2>Verify OTP</h2>
+<form asp-action="VerifyOtp" method="post">
+    <input asp-for="EmailId" type="hidden" />
+    <label asp-for="Otp"></label>
+    <input asp-for="Otp" class="form-control small-input mb-3" />
+    <span asp-validation-for="Otp" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary">Verify</button>
+</form>
