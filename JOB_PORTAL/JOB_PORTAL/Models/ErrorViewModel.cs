@@ -4,6 +4,7 @@ namespace JOB_PORTAL.Models
     {
         public string? RequestId { get; set; }
 
+        public int? num;
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
 }
