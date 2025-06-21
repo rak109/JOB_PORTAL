@@ -1,0 +1,72 @@
+﻿@model JOB_PORTAL.Models.Branch
+@{
+    Layout = "~/Views/Shared/Company_Layout.cshtml";
+    ViewData["Title"] = "Create Branch";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f0f2f5;
+    }
+
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+    }
+</style>
+
+<div class="container login-container">
+    <div class="login-box">
+        <h3 class="text-center mb-4">Create Branch</h3>
+
+        <form asp-action="CreateBranch" asp-controller="CompanyDashboard" method="post">
+            <input type="hidden" asp-for="CompanyId" name="CompanyId" value=@ViewBag.CompanyId />
+            <div class="mb-3">
+                <label asp-for="BranchId"></label>
+                <input asp-for="BranchId" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="BranchName"></label>
+                <input asp-for="BranchName" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Location"></label>
+                <input asp-for="Location" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Password">Password</label>
+                <input asp-for="Password" type="password" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label for="ConfirmPassword">Confirm Password</label>
+                <input type="password" id="ConfirmPassword" name="ConfirmPassword" class="form-control" />
+            </div>
+            <div class="d-grid">
+                <button type="submit"  class="btn btn-primary">Create Branch</button>
+            </div>
+           
+        </form>
+
+    </div>
+</div>

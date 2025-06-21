@@ -1,0 +1,18 @@
+﻿@model JOB_PORTAL.Models.Branch
+@{
+    ViewData["Title"] = "Edit Branch";
+}
+
+<h3>Edit Branch</h3>
+<form asp-action="EditBranch" method="post">
+    <input type="hidden" asp-for="BranchId" />
+    <div class="mt-1">
+        <label asp-for="BranchName"></label>
+        <input asp-for="BranchName" class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary mt-3">Save</button>
+</form>
