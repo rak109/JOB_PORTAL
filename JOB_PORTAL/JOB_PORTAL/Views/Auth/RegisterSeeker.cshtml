@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: #f0f2f5;
+    }
+
+    .login-container {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .login-box {
+        background-color: white;
+        padding: 40px;
+        border-radius: 16px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
+
+    .btn-primary {
+        border-radius: 8px;
+    }
+
+    .login-links a {
+        font-size: 0.9rem;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .login-links a:hover {
+            text-decoration: underline;
+        }
+
+    label {
+        font-weight: 500;
+    }
+</style>
+
+<script>
+    function validatePassword()
+    {
+        var password = document.getElementById("password").
+        var c_password = document.getElementById("c_password")
+        alert(password,c_password);
+    }
+</script>
+<div class="container login-container">
+    <div class="login-box">
+        <h3 class="text-center mb-4">Register</h3>
+
+        <form asp-controller="Auth" asp-action="RegisterSeeker" method="post">
+            <div class="mb-3">
+                <label for="username">Name</label>
+                <input type="text" class="form-control" id="username" name="username" required />
+            </div>
+            <div class="mb-3">
+                <label for="username">Email</label>
+                <input type="email" class="form-control" id="emailId" name="emailId" required />
+            </div>
+            <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name="Password" required />
+            </div>
+            <div class="mb-3">
+                <label for="password">Confirm-Password</label>
+                <input type="password" class="form-control" id="c_password" name="c_Password" required/>
+            </div>
+
+            <div class="mb-3">
+                <label for="captcha">Enter Captcha</label>
+                <input type="text" class="form-control" id="captcha" name="Captcha" required />
+                @* <small class="text-muted">* Simulated captcha field. Replace with Google reCAPTCHA for production.</small> *@
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+
+        </form>
+    </div>
+</div>

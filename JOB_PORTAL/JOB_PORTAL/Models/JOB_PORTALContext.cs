@@ -39,13 +39,13 @@ public partial class JOB_PORTALContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer(DbCredentials.CONNECTION_STRING);
+        => optionsBuilder.UseSqlServer(new DbCredentials().CONNECTION_STRING);
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<AcademicDetail>(entity =>
         {
-            entity.HasKey(e => e.AcademicId).HasName("PK__Academic__D9D65DD49AFFD0A1");
+            entity.HasKey(e => e.AcademicId).HasName("PK__Academic__D9D65DD41858712E");
 
             entity.ToTable("Academic_Details");
 
@@ -73,7 +73,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<Application>(entity =>
         {
-            entity.HasKey(e => e.ApplicationId).HasName("PK__Applicat__E063E1CB88E8F8B1");
+            entity.HasKey(e => e.ApplicationId).HasName("PK__Applicat__E063E1CBBD3BE0C1");
 
             entity.ToTable("Application");
 
@@ -103,7 +103,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<Branch>(entity =>
         {
-            entity.HasKey(e => e.BranchId).HasName("PK__Branch__12CEB0419A24AA64");
+            entity.HasKey(e => e.BranchId).HasName("PK__Branch__12CEB04158C81D79");
 
             entity.ToTable("Branch");
 
@@ -126,7 +126,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<Company>(entity =>
         {
-            entity.HasKey(e => e.CompanyId).HasName("PK__Company__5F5D19326FD1D440");
+            entity.HasKey(e => e.CompanyId).HasName("PK__Company__5F5D1932ECC88DA2");
 
             entity.ToTable("Company");
 
@@ -145,7 +145,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<EmployerDetail>(entity =>
         {
-            entity.HasKey(e => e.EmployerId).HasName("PK__Employer__6C37C549FE3AC691");
+            entity.HasKey(e => e.EmployerId).HasName("PK__Employer__6C37C549FDFB41D1");
 
             entity.ToTable("Employer_Details");
 
@@ -170,7 +170,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<Job>(entity =>
         {
-            entity.HasKey(e => e.JobId).HasName("PK__Job__E76A76862980A890");
+            entity.HasKey(e => e.JobId).HasName("PK__Job__E76A7686802FD757");
 
             entity.ToTable("Job");
 
@@ -208,7 +208,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<JobSeeker>(entity =>
         {
-            entity.HasKey(e => e.JobSeekerId).HasName("PK__JobSeeke__75D13F11B6FEA15D");
+            entity.HasKey(e => e.JobSeekerId).HasName("PK__JobSeeke__75D13F11D47DCC22");
 
             entity.ToTable("JobSeeker");
 
@@ -233,7 +233,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<ProfessionalDetail>(entity =>
         {
-            entity.HasKey(e => e.ProfessionalId).HasName("PK__Professi__C81884E70051BE49");
+            entity.HasKey(e => e.ProfessionalId).HasName("PK__Professi__C81884E7352B0734");
 
             entity.ToTable("Professional_Details");
 
@@ -258,7 +258,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<Skill>(entity =>
         {
-            entity.HasKey(e => e.SkillId).HasName("PK__Skill__B4A9E2B02B9BE56C");
+            entity.HasKey(e => e.SkillId).HasName("PK__Skill__B4A9E2B02C7576AB");
 
             entity.ToTable("Skill");
 
@@ -287,7 +287,7 @@ public partial class JOB_PORTALContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__206D9190D5759844");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__206D9190CBEC6482");
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()

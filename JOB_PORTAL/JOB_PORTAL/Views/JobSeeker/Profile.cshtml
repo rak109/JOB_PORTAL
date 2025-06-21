@@ -1,0 +1,36 @@
+﻿@model JOB_PORTAL.Models.User;
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_JobSeeker_Layout.cshtml";
+}
+
+
+<div class="" style="width:100%">
+    <div class="d-flex flex-row justify-content-around" style="background-color: #f0f0f0; width :100%;height:250px; padding:50px ;border:1px solid black">
+        <div class="d-flex justify-content-center">
+            <img src="~/full-stack.png" alt="image" style="width:70px;height:70px"/>
+        </div>
+        <div class="d-flex flex-column justify-content-around">
+            <div class="d-flex flex-row">
+                <label class="m-1">Name</label>
+                <input value=@Model.Username disabled type="text"/>
+            </div>
+            <div class="d-flex  flex-row">
+                <label class="m-1">Email</label>
+                <input value=@Model.EmailId disabled type="text" />
+            </div>
+            <div class="d-flex  flex-row">
+                <label class="m-1">UserName</label>
+                <input value=@Model.Username disabled type="text" />
+            </div>
+            <div class="d-flex  flex-row">
+                <label class="m-1">UserId</label>
+                <input value=@Model.UserId disabled type="text" />
+            </div>
+        </div>
+    </div>
+
+</div>
