@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\emailhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|c:\\users\\rakshitha.s2\\documents\\online_jobs\\job_portal\\job_portal\\job_portal\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDBE36FE-6589-4F0C-8A32-E223CE0BB453}|JOB_PORTAL\\JOB_PORTAL.csproj|solutionrelative:job_portal\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "EmailHelper.cs",
+              "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\EmailHelper.cs",
+              "RelativeDocumentMoniker": "JOB_PORTAL\\EmailHelper.cs",
+              "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\EmailHelper.cs",
+              "RelativeToolTip": "JOB_PORTAL\\EmailHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T11:56:23.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CompanyDashboard.cshtml",
               "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
               "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Company\\CompanyDashboard.cshtml",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LoginCompany.cshtml",
               "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
               "RelativeDocumentMoniker": "JOB_PORTAL\\Views\\Company\\LoginCompany.cshtml",
@@ -60,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CompanyController.cs",
               "DocumentMoniker": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs",
               "RelativeDocumentMoniker": "JOB_PORTAL\\Controllers\\CompanyController.cs",
               "ToolTip": "C:\\Users\\rakshitha.s2\\Documents\\Online_JOBS\\JOB_PORTAL\\JOB_PORTAL\\JOB_PORTAL\\Controllers\\CompanyController.cs*",
               "RelativeToolTip": "JOB_PORTAL\\Controllers\\CompanyController.cs*",
-              "ViewState": "AgIAAJ4AAAAAAAAAAADwv6gAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAswLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T13:55:44.147Z",
               "EditorCaption": ""
